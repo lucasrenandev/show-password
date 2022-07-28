@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0088d2;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+section form {
+    width: 450px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+section form input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+section form .icone {
+    max-width: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+section form .icone img {
+    width: 100%;
+}
